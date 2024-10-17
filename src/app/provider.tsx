@@ -3,7 +3,7 @@ import { Provider } from "react-redux";
 import { store } from "@/store/store";
 
 
-function StoreProvider({ children }) {
+function StoreProvider({ children }:any) {
   return <Provider store={store}>{children}</Provider>;
 }
 
